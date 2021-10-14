@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+.header,
+.body1{
+    background-color: #1f2937;
+    color: white;
+}
+.header{
+    display: flex;
+}
+.body1,
+.body2,
+.body3,
+.body4{
+    flex: 1;
+    display: flex;
+}
