@@ -88,3 +88,34 @@ button{
     height: 200px;
     
 }
+.body2{
+    display: flex;
+    flex-direction: column;
+
+}
+.body2 >div:first-of-type{
+    padding-top: 50px;
+    color: #1f2937;
+    font-size:36px;
+    font-weight: 900;
+}
+.body2-container{
+    flex: 2;
+    height: auto;
+    display: flex;
+    padding: 40px;
+}
+img{
+    padding: 15px;
+    max-width: 70%;
+    max-height: 70%;
+}
+.imgbox{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    color:#1f2937;
+}
