@@ -77,10 +77,10 @@ li{
 button{
     text-align: center;
     border-radius: 5%;
-    padding: 5px 25px;
+    padding: 6px 25px;
     border: none;
     font-weight: 800;
-    
+    font-size: 16px;
 }
 .box{
     display: flex;
@@ -112,6 +112,9 @@ button{
     padding: 0px;
     margin: 0;
 }
+.body2 img{
+    margin: 5px;
+}
 .imgbox{ 
     padding: 9px;
     display: flex;
@@ -133,4 +136,34 @@ button{
 .body3-container2{
     padding-left: 450px;
     font-weight: bold;
+}
+.body4{
+    color: white;
+    padding: 150px;
+}
+.body4-container{
+    display: flex;
+    padding: 40px 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 40px;
+}
+.body4 button{
+    width: 110px;
+    border:  2px solid white;
+    background-color: #3882f6;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+    background-color: #1f2937;
 }
